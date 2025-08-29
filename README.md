@@ -18,8 +18,11 @@ This repository is a curated collection of **AI and Machine Learning resources**
 ---
 ## 📚 Tutorials & Guides  
 Machine Learning Book : https://drive.google.com/file/d/1aNOunm89etXOSlpIqi_mENGtWT6pRJjp/view?usp=sharing
-Machine Learning Theory : https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&ab_channel=StanfordOnline
 
+
+
+## 🎥 Video Lectures
+Machine Learning Theory : https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&ab_channel=StanfordOnline
 ---
 
 ## Contact
