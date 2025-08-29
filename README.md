@@ -22,7 +22,8 @@ Machine Learning Book : https://drive.google.com/file/d/1aNOunm89etXOSlpIqi_mENG
 
 
 ## 🎥 Video Lectures
-Machine Learning Theory : https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&ab_channel=StanfordOnline
+
+Machine Learning Theory: https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&ab_channel=StanfordOnline
 ---
 
 ## Contact
