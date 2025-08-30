@@ -30,7 +30,7 @@ Machine Learning Theory: https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROM
 
 For any suggestions or resource contributions, reach out to:  
 **Akhil Varanasi** – Head of AI  
-Email: akhil.varanasi23@gmail.com
+Email: akhilvaranasi23@gmail.com
 
 ---
 
