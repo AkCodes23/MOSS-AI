@@ -94,6 +94,69 @@ DSA : https://www.youtube.com/watch?v=pkYVOmU3MgA&ab_channel=freeCodeCamp.org
 
 Data loading : https://www.youtube.com/watch?v=T23Bs75F7ZQ&ab_channel=freeCodeCamp.org
 
+
+𝐇𝐞𝐫𝐞 𝐚𝐫𝐞 𝟐𝟎 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐭𝐡𝐚𝐭 𝐦𝐚𝐤𝐞 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐀𝐈 𝐬𝐢𝐦𝐩𝐥𝐞 & 𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞𝐝:
+
+1. 3Blue1Brown: Understand complex math behind AI visually and intuitively.
+Link: https://lnkd.in/edegfEEv
+
+2. Andrej Karpathy : Deep, practical AI lectures explained clearly.
+Link: https://lnkd.in/eay7TU2a
+
+3. Lex Fridman : Conversations with leading AI researchers and innovators.
+Link: https://lnkd.in/ebbtpsww
+
+4. StatQuest (Josh Starmer): Makes ML concepts fun with humor and clarity.
+Link: https://lnkd.in/eqTeYjMT
+
+5. Jeremy Howard : Practical deep learning with hands-on coding examples.
+Link: https://lnkd.in/e_vHAu84
+
+6. Two Minute Papers: Summaries of the latest AI papers in minutes.
+Link: https://lnkd.in/eyBhZC9p
+
+7. DeepLearning.AI: Structured AI learning from Andrew Ng.
+Link: https://lnkd.in/e62uRF2g
+
+8. Machine Learning Street Talk (MLST): Insightful debates and interviews.
+Link: https://lnkd.in/eUwV47cn
+
+9. freeCodeCamp: Free AI and ML tutorials with certification paths.
+Link: https://lnkd.in/eUn2JUiM
+
+10. Sentdex : Python-based machine learning and data projects.
+Link: https://lnkd.in/e-dCBfas
+
+11. Data School : Simple ML and data analysis concepts for beginners.
+Link: https://lnkd.in/egtSHRy8
+
+12. Codebasics: Real-world ML use cases and career-focused projects.
+Link: https://lnkd.in/ez2NmfVd
+
+13. Siraj Raval : Story-driven tutorials combining creativity and AI.
+Link: https://lnkd.in/ehJf3jzR
+
+14. Google Cloud Tech: Learn how to deploy and manage AI models.
+Link: https://lnkd.in/euJTVeyM
+
+15. Serrano Academy: Step-by-step tutorials on ML, DL, and AI tools.
+Link: https://lnkd.in/eSzJJJWY
+
+16. Tina Huang : Smart AI learning strategies and productivity tips.
+Link: https://lnkd.in/exwv6q7i
+
+17. Matt Wolfe : Quick updates on new AI tools and technologies.
+Link: https://lnkd.in/eiVMeZj3
+
+18. AI Explained: Deep dives into AI ethics, models, and progress.
+Link: https://lnkd.in/etfCYhMq
+
+19. The AI Advantage: Practical ways AI is transforming business productivity.
+Link: https://lnkd.in/egyKfySP
+
+20. Hamel Husain : Advanced insights into LLMs, RAG, and model fine-tuning.
+Link: https://lnkd.in/eSgQMg_d
+
 The best YouTube channels to learn AI from scratch
 
 1] Andrej Karpathy – Deep learning, LLMs, intro to neural nets
