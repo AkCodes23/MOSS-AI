@@ -180,6 +180,29 @@ The best YouTube channels to learn AI from scratch
 7] Jeremy Howard – Practical deep learning tutorials
  https://lnkd.in/ejnKrXYv
 
+
+---
+𝗖𝗼𝗿𝗲 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀: 
+- CI/CD (Continuous Integration & Deployment) – https://lnkd.in/dNdq9FSn
+- Model Versioning & Registry – https://lnkd.in/d-QU637Z
+- Experiment Tracking (MLflow / W&B) – https://lnkd.in/deFrPyHU
+- Data Version Control (DVC) – https://lnkd.in/d5VQazN9
+- Monitoring & Drift Detection – https://lnkd.in/dYwu-q2m
+
+𝗠𝗟𝗢𝗽𝘀 𝗕𝘂𝗶𝗹𝗱𝗶𝗻𝗴 𝗕𝗹𝗼𝗰𝗸𝘀: 
+- Data Pipeline (ETL / ELT) – https://lnkd.in/dhnTfFHP
+- Feature Store (Feast / Tecton) – https://lnkd.in/dHJJ36a4
+- Model Packaging (Docker / ONNX) - https://lnkd.in/dxGvWJ4w
+- Deployment (Batch / Real-Time / Edge) – https://lnkd.in/du7ej8p2
+- Orchestration (Airflow / Prefect / Kubeflow) – https://lnkd.in/dDCrHszG
+- Observability (Prometheus / Grafana) – https://lnkd.in/dYw_QQtA
+
+𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗣𝗮𝘁𝘁𝗲𝗿𝗻𝘀: 
+- Batch vs Online Inference – https://lnkd.in/dkE4RZ23
+- Shadow / Canary / Blue-Green Deployments –https://lnkd.in/dZedEeWm
+- Retraining & Continuous Learning – https://lnkd.in/dEKNbTT7
+- Feedback Loops & Drift Correction – https://lnkd.in/drRXMTAd
+
 ---
 AI Agents
 
