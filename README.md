@@ -131,7 +131,7 @@ That's the roadmap I'd take – no fluff, just results.
 - **[Mathematics for Machine Learning](https://mml-book.github.io)** - Essential math concepts for ML practitioners (Also mentioned in Roadmap Step 2)
 - **[45+ Mathematics Books Every Data Scientist Needs](https://lnkd.in/ghBXQfPc)** - Curated collection of essential mathematics resources
 
-### AI Agents & LLMs
+### AI Agents & LLMs Books
 - **[Building an LLM from Scratch](https://lnkd.in/g2YGbnWS)** - Detailed guide to constructing large language models
 - **[The LLM Engineering Handbook](https://lnkd.in/gWUT2EXe)** - Practical LLM engineering and deployment
 - **[AI Agents: The Definitive Guide by Nicole Koenigstein](https://lnkd.in/dJ9wFNMD)** - Comprehensive guide to AI agent architectures
@@ -263,7 +263,7 @@ That's the roadmap I'd take – no fluff, just results.
 
 ## 💻 GitHub Repositories
 
-### AI Agents & LLMs
+### AI Agents & LLMs Repositories
 - **[GenAI Agents by nirdiamant](https://github.com/nirdiamant/GenAI_Agents)** - Generative AI agents implementation
 - **[Microsoft's AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)** - Beginner-friendly agent course
 - **[GenAI Agents Collection](https://lnkd.in/dEt72MEy)** - Curated GenAI agents resources
@@ -495,7 +495,7 @@ This section contains specialized resources for building AI agents and working w
 - **[AWS Machine Learning](https://aws.amazon.com/machine-learning/)** - AWS ML services
 - **[Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)** - Microsoft's ML platform
 
-### Specialized Topics
+### Specialized Topics & Libraries
 
 #### Computer Vision
 - **[PyImageSearch](https://www.pyimagesearch.com/)** - Computer vision tutorials
