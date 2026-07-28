@@ -1,7 +1,19 @@
+"""TinyGPT: a minimal word-level GPT trained on a ten-sentence corpus.
+
+Run it from this directory so the import below resolves:
+
+    python tiny_gpt.py
+
+Trains for 1500 steps on CPU in well under a minute, then generates text. The
+corpus is deliberately tiny, so the model memorises rather than generalises --
+that is what makes the result readable.
+
+See README.md in this directory for a guided walkthrough.
+"""
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import random
 
 from transformer_blocks import Block
 

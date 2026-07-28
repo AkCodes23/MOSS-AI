@@ -1,1 +1,59 @@
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments -------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter --------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# --- ML artefacts ---------------------------------------------------------
+# Trained weights and checkpoints do not belong in git — use a model registry
+# or Hugging Face Hub instead.
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+*.onnx
+runs/
+wandb/
+mlruns/
+lightning_logs/
+catboost_info/
+
+# --- Large or competition data --------------------------------------------
+# Small teaching datasets belong in data/ and are committed deliberately;
+# see data/README.md. Downloaded competition data does not.
+*.zip
+*.tar.gz
+notebooks/train.csv
+notebooks/test.csv
+notebooks/sample_submission.csv
+
+# --- Editors and OS ------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Local scratch --------------------------------------------------------
 README.md.backup
+*.backup
+*.log
+.env

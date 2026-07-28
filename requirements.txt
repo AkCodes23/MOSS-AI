@@ -1,0 +1,38 @@
+# MOSS AI — dependencies for the notebooks and code in this repository.
+#
+#   python -m venv .venv
+#   source .venv/bin/activate        # Windows: .venv\Scripts\activate
+#   pip install -r requirements.txt
+#
+# Python 3.9 or newer.
+
+# --- Core scientific stack (every notebook) -------------------------------
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+
+# --- Plotting -------------------------------------------------------------
+matplotlib>=3.7
+seaborn>=0.13
+
+# --- Classical machine learning ------------------------------------------
+# notebooks/knn-iris.ipynb, notebooks/random-forests*.ipynb
+scikit-learn>=1.3
+
+# --- Gradient boosting ----------------------------------------------------
+# notebooks/gradient-boosting.ipynb
+xgboost>=2.0
+lightgbm>=4.0
+catboost>=1.2
+
+# --- Deep learning --------------------------------------------------------
+# code/transformers/  — PyTorch.
+# For CUDA builds, follow the selector at https://pytorch.org/get-started/locally/
+torch>=2.0
+
+# notebooks/perceptron.ipynb — TensorFlow.
+tensorflow>=2.13
+
+# --- Notebook environment -------------------------------------------------
+jupyter>=1.0
+ipython>=8.0

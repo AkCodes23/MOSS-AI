@@ -1,4 +1,16 @@
-# transformer_blocks.py
+"""Transformer building blocks, written from PyTorch primitives.
+
+Read this file bottom-up: SelfAttentionHead is the whole idea, and everything
+else stacks on top of it. Imported by tiny_gpt.py, which wires these into a
+working model and trains it.
+
+    SelfAttentionHead  -> one head: queries, keys, values, causal mask
+    MultiHeadAttention -> several heads in parallel, concatenated
+    FeedForward        -> per-position MLP
+    Block              -> attention + feed-forward, with residuals
+
+See README.md in this directory for a guided walkthrough.
+"""
 
 import torch
 import torch.nn as nn

@@ -1,524 +1,768 @@
-# Manipal Open Source Society - AI Resources
+# MOSS AI — Manipal Open Source Society
 
-## Repository for AI Learning & Development Resources
+A curated, self-contained starting point for learning **artificial intelligence and machine
+learning** — maintained by the AI Chapter of the Manipal Open Source Society.
 
-This repository is a curated collection of **AI and Machine Learning resources** shared by the Manipal Open Source Society AI Chapter, maintained by **Akhil Varanasi (Head of AI)**. It is designed to help juniors and community members deepen their AI knowledge and accelerate their projects.
+Everything here is free to read, run, and fork:
 
----
+- **Explainers** you can read right now — [`docs/`](docs/)
+- **Notebooks and code** you can run right now — [`notebooks/`](notebooks/), [`code/`](code/)
+- **A curated index** of the best external books, courses, papers and tools — [below](#resource-library)
 
-## 📑 Table of Contents
-
-- [Introduction & Overview](#introduction--overview)
-- [📋 Quick Start Guide](#-quick-start-guide)
-- [🗺️ Learning Roadmap](#️-learning-roadmap)
-- [📚 Books & Reading Materials](#-books--reading-materials)
-- [🎥 Video Lectures & Tutorials](#-video-lectures--tutorials)
-- [🎓 Online Courses](#-online-courses)
-- [📝 Tutorials & Guides](#-tutorials--guides)
-- [💻 GitHub Repositories](#-github-repositories)
-- [📊 Research Papers](#-research-papers)
-- [🛠️ MLOps & Production](#️-mlops--production)
-- [🤖 AI Agents & LLMs](#-ai-agents--llms)
-- [📰 Newsletters & Communities](#-newsletters--communities)
-- [🧰 Tools & Libraries](#-tools--libraries)
-- [💡 Additional Resources](#-additional-resources)
-- [Contact](#contact)
+Maintained by **Akhil Varanasi**, Head of AI. Contributions welcome — see [Contributing](#contributing).
 
 ---
 
-## Introduction & Overview
+## Contents
 
-Welcome to the **Manipal Open Source Society's AI Resources Repository**! 
+**Getting oriented**
+[What's in this repository](#whats-in-this-repository) ·
+[Quick start](#quick-start) ·
+[Learning roadmap](#learning-roadmap) ·
+[Explainers](#explainers) ·
+[Notebooks](#notebooks) ·
+[Code](#code)
 
-This comprehensive guide is designed to take you from complete beginner to advanced AI practitioner. Whether you're just starting with programming or looking to specialize in cutting-edge areas like Large Language Models and AI Agents, you'll find curated, high-quality resources here.
+**Resource library**
+[Books](#books) ·
+[Courses](#courses) ·
+[Video tutorials](#video-tutorials) ·
+[YouTube channels](#youtube-channels) ·
+[Research papers](#research-papers) ·
+[GitHub repositories](#github-repositories) ·
+[Guides & whitepapers](#guides--whitepapers)
 
-### Resource Type Legend
-- 📹 Video Content
-- 📚 Books & eBooks
-- 💻 Code & Repositories
-- 🎓 Structured Courses
-- 📝 Articles & Guides
-- 🛠️ Tools & Platforms
+**Specialisations**
+[AI agents & LLMs](#ai-agents--llms) ·
+[RAG](#rag--retrieval-augmented-generation) ·
+[MLOps & production](#mlops--production) ·
+[CUDA & GPU programming](#cuda--gpu-programming) ·
+[Computer vision, NLP & RL](#computer-vision-nlp--reinforcement-learning)
 
-[Back to Top ⬆️](#-table-of-contents)
+**Practice & community**
+[Tools & libraries](#tools--libraries) ·
+[Datasets](#datasets) ·
+[Practice platforms](#practice-platforms) ·
+[Newsletters & communities](#newsletters--communities)
 
----
-
-## 📋 Quick Start Guide
-
-### Learning Path by Experience Level
-
-| Experience Level | Recommended Starting Point | Estimated Time |
-|-----------------|---------------------------|----------------|
-| **Complete Beginner** | Programming Basics → Python fundamentals | 2-3 weeks |
-| **Basic Programming** | Mathematics Foundations → Statistics | 4-6 weeks |
-| **Intermediate** | Machine Learning Basics → Projects | 8-12 weeks |
-| **Advanced** | Deep Learning → Specialized topics (NLP/CV/RL) | 12+ weeks |
-| **Production Ready** | MLOps & AI Agents → Real-world deployment | Ongoing |
-
-### Getting Started Checklist
-- [ ] Set up Python environment (Python 3.8+)
-- [ ] Install essential tools: Jupyter Notebook, VS Code
-- [ ] Learn Git basics for version control
-- [ ] Create accounts: GitHub, Kaggle, Google Colab
-- [ ] Join AI communities (see [Communities section](#-newsletters--communities))
-- [ ] Start with the [Learning Roadmap](#️-learning-roadmap)
-
-[Back to Top ⬆️](#-table-of-contents)
+**Project**
+[Contributing](#contributing) ·
+[Contact](#contact) ·
+[License](#license)
 
 ---
 
-## 🗺️ Learning Roadmap
+## What's in this repository
 
-𝟭. 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 𝗕𝗮𝘀𝗶𝗰𝘀 (𝟭-𝟮 𝗪𝗲𝗲𝗸𝘀)
-→ Pick Python (you'll use it for everything).
-→ Focus on: Loops, functions, object-oriented programming.
-→ Tools: Jupyter Notebook, VS Code.
-Resource: Google's Python Class → https://lnkd.in/d9yFJYXP
-
-𝟮. 𝗠𝗮𝘁𝗵𝗲𝗺𝗮𝘁𝗶𝗰𝘀 𝗙𝗼𝘂𝗻𝗱𝗮𝘁𝗶𝗼𝗻𝘀 (𝟮-𝟯 𝗪𝗲𝗲𝗸𝘀)
-→ Topics: Linear Algebra (vectors, matrices), Calculus (derivatives), Probability.
-→ Tools: NumPy for practice.
-Resource: Mathematics for Machine Learning → mml-book.github.io
-
-𝟯. 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 & 𝗗𝗮𝘁𝗮 𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝘀 (𝟮-𝟯 𝗪𝗲𝗲𝗸𝘀)
-→ Key Skills: Exploratory Data Analysis (EDA), hypothesis testing, correlation.
-→ Tools: Pandas, Matplotlib, Seaborn.
-Resource: Kaggle's Pandas Course → kaggle.com/learn/pandas
-
-𝟰. 𝗗𝗮𝘁𝗮 𝗖𝗹𝗲𝗮𝗻𝗶𝗻𝗴 (𝟭-𝟮 𝗪𝗲𝗲𝗸𝘀)
-→ Learn how to handle missing data, outliers, and feature scaling.
-→ Tools: Pandas, Scikit-learn.
-Resource: Hands-On Machine Learning by Aurelien Geron → https://lnkd.in/gxcjbJRp
-
-𝟱. 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗕𝗮𝘀𝗶𝗰𝘀 (𝟯-𝟰 𝗪𝗲𝗲𝗸𝘀)
-→ Algorithms: Linear Regression, Logistic Regression, KNN, Decision Trees.
-→ Tools: Scikit-learn.
-Resource: Andrew Ng's Machine Learning Course → https://lnkd.in/gFwA_Gvq
-
-𝟲. 𝗗𝗲𝗲𝗽 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 (𝟰-𝟲 𝗪𝗲𝗲𝗸𝘀)
-→ Topics: Neural Networks, CNNs, RNNs.
-→ Tools: TensorFlow, PyTorch.
-Resource: Deep Learning Specialization by Andrew Ng → https://lnkd.in/g4qZMHxd
-
-𝟳. 𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀 & 𝗣𝗿𝗮𝗰𝘁𝗶𝗰𝗲 (𝗢𝗻𝗴𝗼𝗶𝗻𝗴)
-→ Start small: Predictive modeling, image classification, NLP.
-→ Platforms: Kaggle, DrivenData.
-Resource: Kaggle Competitions → kaggle.com/competitions
-
-𝗧𝗶𝗽𝘀 𝗳𝗼𝗿 𝟮𝟬𝟮𝟱:
-→ Leverage AI tools (ChatGPT, AutoML) for faster learning.
-→ Focus on projects, not perfection.
-→ Don't just follow tutorials – build, break, and learn.
-
-That's the roadmap I'd take – no fluff, just results.
-
-[Back to Top ⬆️](#-table-of-contents)
+| Folder | What it holds | Start with |
+|---|---|---|
+| [`docs/`](docs/) | Written explainers on AI fundamentals, generative AI and Git | [Get Started with AI](docs/get-started-with-ai.md) |
+| [`notebooks/`](notebooks/) | Runnable Jupyter notebooks with worked examples | [KNN on Iris](notebooks/knn-iris.ipynb) |
+| [`code/`](code/) | Standalone from-scratch implementations | [Transformer from scratch](code/transformers/) |
+| [`data/`](data/) | Small datasets the notebooks depend on | [`data/README.md`](data/README.md) |
+| [`reference/`](reference/) | PDF cheat sheets and lecture notes | [ML cheat sheet](reference/ml-cheatsheet.pdf) |
 
 ---
 
-## 📚 Books & Reading Materials
+## Quick start
 
-### Core AI/ML Books
+You need Python 3.9 or newer. Everything here runs locally or on
+[Google Colab](https://colab.research.google.com/) — no paid services required.
 
-- **[Hands-On Machine Learning by Aurelien Geron](https://lnkd.in/gxcjbJRp)** - Comprehensive practical guide covering scikit-learn, Keras & TensorFlow (Also mentioned in Roadmap Step 4)
-- **[Machine Learning Book (Drive Link)](https://drive.google.com/file/d/1aNOunm89etXOSlpIqi_mENGtWT6pRJjp/view?usp=sharing)** - Foundational ML concepts and algorithms
-- **[Understanding Deep Learning](https://udlbook.github.io/udlbook/)** - Free comprehensive deep learning textbook
-- **[Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville](http://www.deeplearningbook.org/)** - The definitive deep learning textbook, covers mathematical foundations and advanced topics
-- **[Pattern Recognition and Machine Learning by Christopher Bishop](https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/)** - Comprehensive Bayesian perspective on machine learning
+```bash
+git clone https://github.com/AkCodes23/MOSS-AI.git
+cd MOSS-AI
 
-### Mathematics & Statistics
-- **[Mathematics for Machine Learning](https://mml-book.github.io)** - Essential math concepts for ML practitioners (Also mentioned in Roadmap Step 2)
-- **[45+ Mathematics Books Every Data Scientist Needs](https://lnkd.in/ghBXQfPc)** - Curated collection of essential mathematics resources
+python -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
 
-### AI Agents & LLMs Books
-- **[Building an LLM from Scratch](https://lnkd.in/g2YGbnWS)** - Detailed guide to constructing large language models
-- **[The LLM Engineering Handbook](https://lnkd.in/gWUT2EXe)** - Practical LLM engineering and deployment
-- **[AI Agents: The Definitive Guide by Nicole Koenigstein](https://lnkd.in/dJ9wFNMD)** - Comprehensive guide to AI agent architectures
-- **[Building Applications with AI Agents by Michael Albada](https://lnkd.in/dSs8srk5)** - Practical applications of AI agents
-- **[AI Agents with MCP by Kyle Stratis](https://lnkd.in/dR22bEiZ)** - Model Context Protocol for AI agents
-- **[AI Engineering (O'Reilly)](https://www.oreilly.com/library/view/ai-engineering/9781098166298/)** - Production AI systems
+pip install -r requirements.txt
+jupyter notebook
+```
 
-### NLP & Language Processing
-- **[Speech and Language Processing by Jurafsky & Martin](https://web.stanford.edu/~jurafsky/slp3/)** - Comprehensive NLP textbook covering fundamentals to modern techniques
+Prefer not to install anything? Open any notebook directly in Colab —
+**File → Open notebook → GitHub**, then paste `AkCodes23/MOSS-AI`.
 
-### Additional Book Collections
-- **[Hands-On Large Language Models](https://lnkd.in/dxaVF86w)** - Practical LLM implementation guide
+**Setup checklist**
 
-[Back to Top ⬆️](#-table-of-contents)
+- [ ] Python 3.9+ installed and on your `PATH`
+- [ ] Virtual environment created and activated
+- [ ] `pip install -r requirements.txt` finished without errors
+- [ ] [`notebooks/knn-iris.ipynb`](notebooks/knn-iris.ipynb) runs top to bottom
+- [ ] Accounts created: [GitHub](https://github.com), [Kaggle](https://www.kaggle.com), [Google Colab](https://colab.research.google.com)
+- [ ] Git basics understood — [docs/git-and-github.md](docs/git-and-github.md)
 
 ---
 
-## 🎥 Video Lectures & Tutorials
+## Learning roadmap
 
-### Individual Tutorials & Lectures
+A realistic path from zero to building things. Times assume roughly 8–10 hours a week.
 
-#### Core AI/ML Topics
-- **[Machine Learning Theory (Stanford Online)](https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&ab_channel=StanfordOnline)** - Comprehensive ML theory course
-- **[Introduction to Deep Learning (MIT)](https://youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)** - MIT's intro to DL course
+| # | Stage | Time | What you learn | Start here |
+|---|---|---|---|---|
+| 1 | **Programming basics** | 1–2 weeks | Loops, functions, OOP in Python | [Google's Python Class](https://developers.google.com/edu/python) |
+| 2 | **Mathematics** | 2–3 weeks | Linear algebra, calculus, probability | [Mathematics for Machine Learning](https://mml-book.github.io) |
+| 3 | **Statistics & EDA** | 2–3 weeks | Hypothesis testing, correlation, pandas | [Kaggle: Pandas](https://www.kaggle.com/learn/pandas) |
+| 4 | **Data cleaning** | 1–2 weeks | Missing data, outliers, feature scaling | [Kaggle: Data Cleaning](https://www.kaggle.com/learn/data-cleaning) |
+| 5 | **Machine learning** | 3–4 weeks | Regression, KNN, trees, ensembles | [Andrew Ng's ML Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| 6 | **Deep learning** | 4–6 weeks | Neural nets, CNNs, RNNs, transformers | [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) |
+| 7 | **Projects** | ongoing | Ship something end to end | [Kaggle Competitions](https://www.kaggle.com/competitions) |
 
-#### Programming & Tools
-- **[Python for Everybody](https://www.youtube.com/watch?v=rfscVS0vtbw&ab_channel=freeCodeCamp.org)** - Complete Python tutorial (Also mentioned in Roadmap Step 1)
-- **[Pandas Tutorial (Keith Galli)](https://www.youtube.com/watch?v=2uvysYbKdjM&t=81s&ab_channel=KeithGalli)** - Data manipulation with Pandas
-- **[NumPy Tutorial](https://www.youtube.com/watch?v=QUT1VHiLmmI&ab_channel=freeCodeCamp.org)** - NumPy fundamentals
-- **[Matplotlib Tutorial](https://www.youtube.com/watch?v=3Xc3CA655Y4&ab_channel=freeCodeCamp.org)** - Data visualization
-- **[OOP in Python](https://www.youtube.com/watch?v=iLRZi0Gu8Go&ab_channel=freeCodeCamp.org)** - Object-oriented programming
-- **[Data Structures & Algorithms](https://www.youtube.com/watch?v=pkYVOmU3MgA&ab_channel=freeCodeCamp.org)** - DSA fundamentals
-- **[Data Loading Tutorial](https://www.youtube.com/watch?v=T23Bs75F7ZQ&ab_channel=freeCodeCamp.org)** - Efficient data loading techniques
+**Practise as you go.** Each stage has a matching notebook in this repo — stage 5 maps to
+[`knn-iris.ipynb`](notebooks/knn-iris.ipynb) and [`random-forests.ipynb`](notebooks/random-forests.ipynb),
+stage 6 to [`perceptron.ipynb`](notebooks/perceptron.ipynb) and [`code/transformers/`](code/transformers/).
 
-### YouTube Channels for AI/ML Learning
+Three things that matter more than the order:
 
-#### Mathematical Foundations & Theory
-- **[3Blue1Brown](https://lnkd.in/edegfEEv)** - Understand complex math behind AI visually and intuitively | Focus: Linear algebra, calculus, neural networks
-- **[StatQuest (Josh Starmer)](https://lnkd.in/eqTeYjMT)** - Makes ML concepts fun with humor and clarity | Focus: Statistics, ML algorithms
+1. **Build, break, and fix.** Tutorials teach recognition; projects teach recall.
+2. **Finish small things.** A working model beats a half-read textbook.
+3. **Use AI tools to learn faster** — but read the code they write before you trust it.
 
-#### Deep Learning & Neural Networks
-- **[Andrej Karpathy](https://lnkd.in/eay7TU2a)** - Deep, practical AI lectures explained clearly | Focus: Deep learning, LLMs, neural networks from scratch
-- **[Jeremy Howard (fast.ai)](https://lnkd.in/e_vHAu84)** - Practical deep learning with hands-on coding examples | Focus: Practical DL, fast.ai library
-- **[DeepLearning.AI](https://lnkd.in/e62uRF2g)** - Structured AI learning from Andrew Ng | Focus: Comprehensive ML/DL courses
-
-#### Practical ML & Projects
-- **[Sentdex](https://lnkd.in/e-dCBfas)** - Python-based machine learning and data projects | Focus: Python, ML, finance, trading
-- **[Data School](https://lnkd.in/egtSHRy8)** - Simple ML and data analysis concepts for beginners | Focus: scikit-learn, pandas, beginner-friendly
-- **[Codebasics](https://lnkd.in/ez2NmfVd)** - Real-world ML use cases and career-focused projects | Focus: Career guidance, practical projects
-- **[freeCodeCamp](https://lnkd.in/eUn2JUiM)** - Free AI and ML tutorials with certification paths | Focus: Complete courses, certifications
-
-#### Research & Advanced Topics
-- **[Lex Fridman](https://lnkd.in/ebbtpsww)** - Conversations with leading AI researchers and innovators | Focus: AI research, philosophy, interviews
-- **[Machine Learning Street Talk (MLST)](https://lnkd.in/eUwV47cn)** - Insightful debates and interviews | Focus: Research discussions, expert interviews
-- **[Two Minute Papers](https://lnkd.in/eyBhZC9p)** - Summaries of the latest AI papers in minutes | Focus: Research paper summaries
-- **[AI Explained](https://lnkd.in/etfCYhMq)** - Deep dives into AI ethics, models, and progress | Focus: AI developments, model analysis
-
-#### Education & Career
-- **[Serrano Academy (Luis Serrano)](https://lnkd.in/eSzJJJWY)** - Step-by-step tutorials on ML, DL, and AI tools | Focus: Clear explanations, beginner-friendly
-- **[Tina Huang](https://lnkd.in/exwv6q7i)** - Smart AI learning strategies and productivity tips | Focus: Career advice, learning strategies
-
-#### Industry & Applications
-- **[Google Cloud Tech](https://lnkd.in/euJTVeyM)** - Learn how to deploy and manage AI models | Focus: Cloud deployment, production ML
-- **[Matt Wolfe](https://lnkd.in/eiVMeZj3)** - Quick updates on new AI tools and technologies | Focus: AI tools, new releases
-- **[The AI Advantage](https://lnkd.in/egyKfySP)** - Practical ways AI is transforming business productivity | Focus: Business applications
-
-#### Specialized Topics
-- **[Siraj Raval](https://lnkd.in/ehJf3jzR)** - Story-driven tutorials combining creativity and AI | Focus: Creative AI applications
-- **[Hamel Husain](https://lnkd.in/eSgQMg_d)** - Advanced insights into LLMs, RAG, and model fine-tuning | Focus: LLMs, RAG, fine-tuning
-- **[Yannic Kilcher](https://www.youtube.com/c/yannickilcher)** - In-depth paper explanations and ML research analysis | Focus: Research papers, technical deep-dives
-- **[AI Coffee Break with Letitia](https://www.youtube.com/c/aicoffeebreak)** - Accessible explanations of AI research and concepts | Focus: Research summaries, AI ethics
-- **[CodeEmporium](https://www.youtube.com/c/codeemporium)** - Clear ML algorithm explanations with visualizations | Focus: Algorithm breakdowns, theory
-
-[Back to Top ⬆️](#-table-of-contents)
+For the full topic-by-topic breakdown, see the [AI syllabus](docs/ai-syllabus.md).
 
 ---
 
-## 🎓 Online Courses
+## Explainers
 
-### Foundational Courses
-- **[Google's Python Class](https://lnkd.in/d9yFJYXP)** - Free Python course for beginners (Also mentioned in Roadmap Step 1)
-- **[Kaggle's Pandas Course](https://kaggle.com/learn/pandas)** - Interactive Pandas tutorial (Also mentioned in Roadmap Step 3)
-- **[Google's Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)** - Fast-paced ML fundamentals with TensorFlow
-- **[Fast.ai Practical Deep Learning](https://course.fast.ai/)** - Top-down approach to deep learning
-- **[Kaggle Learn](https://www.kaggle.com/learn)** - Interactive courses on Python, ML, DL, and more
+Plain-language write-ups, no setup required.
 
-### Andrew Ng's Courses
-- **[Andrew Ng's Machine Learning Course](https://lnkd.in/gFwA_Gvq)** - Classic ML fundamentals (Also mentioned in Roadmap Step 5)
-- **[Deep Learning Specialization by Andrew Ng](https://lnkd.in/g4qZMHxd)** - Comprehensive DL course (Also mentioned in Roadmap Step 6)
-
-### AI Agents & LLMs Courses
-- **[HuggingFace's Agent Course](https://lnkd.in/gmTftTXV)** - Building AI agents with HuggingFace
-- **[MCP with Anthropic](https://lnkd.in/geffcwdq)** - Model Context Protocol
-- **[Building Vector Databases with Pinecone](https://lnkd.in/gCS4sd7Y)** - Vector database fundamentals
-- **[Vector Databases from Embeddings to Apps](https://lnkd.in/gm9HR6_2)** - Comprehensive vector DB course
-- **[Agent Memory](https://lnkd.in/gNFpC542)** - Memory systems for AI agents
-- **[Building and Evaluating RAG apps](https://lnkd.in/g2qC9-mh)** - Retrieval-Augmented Generation
-- **[Building Browser Agents](https://lnkd.in/gsMmCifQ)** - Web automation with agents
-- **[LLMOps](https://lnkd.in/g7bHU37w)** - Operations for Large Language Models
-- **[Evaluating AI Agents](https://lnkd.in/gHJtwF5s)** - Agent evaluation techniques
-- **[Computer Use with Anthropic](https://lnkd.in/gMUWg7Fa)** - Claude's computer use capabilities
-- **[Multi-Agent Use](https://lnkd.in/gU9DY9kj)** - Multi-agent systems
-- **[Improving LLM Accuracy](https://lnkd.in/gsE-4FvY)** - LLM optimization techniques
-- **[Agent Design Patterns](https://lnkd.in/gzKvx5A4)** - Common agent architectures
-- **[Multi Agent Systems](https://lnkd.in/gUayts9s)** - Collaborative agent systems
-
-[Back to Top ⬆️](#-table-of-contents)
+| Document | What it covers |
+|---|---|
+| [Get Started with AI](docs/get-started-with-ai.md) | What AI is, why it's hard to define, the four capability types |
+| [Generative AI: An Overview](docs/generative-ai-overview.md) | Why ChatGPT changed things, and what LLMs can actually do |
+| [Generative AI In Depth](docs/generative-ai-in-depth.md) | The tech stack, what drives progress, ethics and limitations |
+| [AI Syllabus](docs/ai-syllabus.md) | Complete topic checklist, linear algebra through research methodology |
+| [Git and GitHub](docs/git-and-github.md) | Version control basics every contributor needs |
 
 ---
 
-## 📝 Tutorials & Guides
+## Notebooks
 
-### General Resources
-- **[400+ Data Science Resources](https://lnkd.in/gv9yvfdd)** - Massive collection of DS resources
-- **[Premium Data Science Interview Resources](https://lnkd.in/gPrWQ8is)** - Interview preparation materials
-- **[Python Data Science Library](https://lnkd.in/gHSDtsmA)** - Comprehensive Python DS guide
+| Notebook | Topic | Level |
+|---|---|---|
+| [`knn-iris.ipynb`](notebooks/knn-iris.ipynb) | K-Nearest Neighbours with full EDA on the Iris dataset | Beginner |
+| [`random-forests.ipynb`](notebooks/random-forests.ipynb) | Random Forests — compact, focused walkthrough | Beginner |
+| [`random-forests-deep-dive.ipynb`](notebooks/random-forests-deep-dive.ipynb) | Random Forests in depth, with diagrams and theory | Intermediate |
+| [`gradient-boosting.ipynb`](notebooks/gradient-boosting.ipynb) | XGBoost, CatBoost and LightGBM compared | Intermediate |
+| [`perceptron.ipynb`](notebooks/perceptron.ipynb) | The perceptron, built from scratch in TensorFlow | Intermediate |
 
-### AI Agents Guides
-- **[Google's Agent Whitepaper](https://lnkd.in/gFvCfbSN)** - Comprehensive agent design guide
-- **[Google's Agent Companion](https://lnkd.in/gfmCrgAH)** - Supplementary agent materials
-- **[Building Effective Agents by Anthropic](https://lnkd.in/gRWKANS4)** - Best practices for agent development
-- **[Claude Code Best Agentic Coding Practices](https://lnkd.in/gs99zyCf)** - Agentic coding patterns
-- **[OpenAI's Practical Guide to Building Agents](https://lnkd.in/guRfXsFK)** - OpenAI's agent framework
-- **[Prompt Engineering Guide](https://lnkd.in/gJjGbxQr)** - Comprehensive prompt engineering resource
+Dependencies, contributors and known gaps: [`notebooks/README.md`](notebooks/README.md).
 
-[Back to Top ⬆️](#-table-of-contents)
+## Code
+
+[`code/transformers/`](code/transformers/) — a minimal GPT built from nothing but PyTorch
+primitives: self-attention, multi-head attention, and a full training loop in under 200 lines.
+
+```bash
+cd code/transformers
+python tiny_gpt.py
+```
+
+---
+---
+
+# Resource library
+
+Every resource appears **once**, in the section matching what it is. Free resources are marked.
+
+> **A note on links.** Some URLs use LinkedIn's `lnkd.in` shortener, inherited from where the
+> resource was originally shared — they work, but you can't see the destination before clicking.
+> When adding anything new, please use the canonical URL. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
-## 💻 GitHub Repositories
+## Books
 
-### AI Agents & LLMs Repositories
-- **[GenAI Agents by nirdiamant](https://github.com/nirdiamant/GenAI_Agents)** - Generative AI agents implementation
-- **[Microsoft's AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)** - Beginner-friendly agent course
-- **[GenAI Agents Collection](https://lnkd.in/dEt72MEy)** - Curated GenAI agents resources
-- **[LLM Course by mlabonne](https://github.com/mlabonne/llm-course)** - Complete LLM learning path
+### Free and open
 
-### General ML/AI Resources
-- **[Made with ML](https://lnkd.in/d2dMACMj)** - Production ML from design to deployment
-- **[Hands-On AI Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering)** - Practical AI engineering guide
-- **[Awesome Generative AI Guide](https://lnkd.in/dJ8gxp3a)** - Curated generative AI resources
-- **[Designing Machine Learning Systems](https://lnkd.in/dEx8sQJK)** - ML system design patterns
-- **[Machine Learning for Beginners from Microsoft](https://lnkd.in/dBj3BAEY)** - Microsoft's ML curriculum
+Start here. No purchase needed, and these are genuinely among the best available.
 
-### Practice Repositories
-- **[Kaggle Competitions](https://kaggle.com/competitions)** - Real-world ML competitions (Also mentioned in Roadmap Step 7)
+| Book | Author(s) | Why read it |
+|---|---|---|
+| [Mathematics for Machine Learning](https://mml-book.github.io) | Deisenroth, Faisal, Ong | The maths you actually need, nothing more |
+| [Understanding Deep Learning](https://udlbook.github.io/udlbook/) | Simon Prince | Modern, visual, current — the best free DL text today |
+| [Deep Learning](http://www.deeplearningbook.org/) | Goodfellow, Bengio, Courville | The canonical reference. Dense, but definitive |
+| [Dive into Deep Learning](https://d2l.ai/) | Zhang, Lipton, Li, Smola | Every concept paired with runnable code |
+| [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) | Jurafsky & Martin | NLP from n-grams to transformers |
+| [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/) | Christopher Bishop | The Bayesian view of ML |
+| [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) | Sutton & Barto | The RL textbook, free from the authors |
 
-[Back to Top ⬆️](#-table-of-contents)
+### Practical and hands-on
 
----
+- **[Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow](https://lnkd.in/gxcjbJRp)** — Aurélien Géron
+  The best first ML book. The whole classical pipeline, then neural networks. *Roadmap stages 4–6.*
+- **[AI Engineering](https://www.oreilly.com/library/view/ai-engineering/9781098166298/)** — Chip Huyen
+  Building production systems on top of foundation models.
+- **[Machine Learning Book (mirror)](https://drive.google.com/file/d/1aNOunm89etXOSlpIqi_mENGtWT6pRJjp/view?usp=sharing)**
+  Foundational algorithms and concepts.
 
-## 📊 Research Papers
+### Mathematics
 
-### AI Agents & Reasoning
-- **[ReAct: Synergizing Reasoning and Acting](https://lnkd.in/gRBH3ZRq)** - Reasoning and action in language models
-- **[Generative Agents: Interactive Simulacra](https://lnkd.in/gsDCUsWm)** - Believable human behavior simulation
-- **[Toolformer: Language Models Can Teach Themselves to Use Tools](https://lnkd.in/gyzrege6)** - Tool use in LLMs
-- **[Chain-of-Thought Prompting](https://lnkd.in/gaK5CXzD)** - Reasoning through intermediate steps
-- **[Tree of Thoughts](https://lnkd.in/gRJdv_iU)** - Deliberate problem solving with LLMs
-- **[Reflexion: Language Agents with Verbal Reinforcement](https://lnkd.in/gGFMgjUj)** - Self-reflection in agents
+- **[Mathematics for Machine Learning](https://mml-book.github.io)** — see *Free and open* above
+- **[45+ Mathematics Books Every Data Scientist Needs](https://lnkd.in/ghBXQfPc)** — a reference shelf, not a reading list
 
-### RAG & Retrieval
-- **[Retrieval-Augmented Generation Survey](https://lnkd.in/gGUqkkyR)** - Comprehensive RAG overview
+> **Don't** try to finish a maths textbook before starting ML. Learn linear algebra and
+> probability to working depth, then come back when a model confuses you.
 
-### Paper Discovery Tools
-- **[Papers with Code](https://paperswithcode.com/)** - ML papers with code implementations
-- **[ArXiv Sanity Preserver](http://www.arxiv-sanity.com/)** - Better arXiv paper discovery
-- **[Connected Papers](https://www.connectedpapers.com/)** - Visual paper exploration tool
+### LLMs and AI agents
 
-[Back to Top ⬆️](#-table-of-contents)
+The fastest-dating category — check publication dates before buying.
 
----
+| Book | Author | Focus |
+|---|---|---|
+| [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch) | Sebastian Raschka | Implementing a GPT end to end |
+| [Hands-On Large Language Models](https://lnkd.in/dxaVF86w) | Alammar & Grootendorst | Using and adapting LLMs, heavily illustrated |
+| [The LLM Engineering Handbook](https://lnkd.in/gWUT2EXe) | — | Deployment, evaluation and operations |
+| [AI Agents: The Definitive Guide](https://lnkd.in/dJ9wFNMD) | Nicole Koenigstein | Agent architectures and design |
+| [Building Applications with AI Agents](https://lnkd.in/dSs8srk5) | Michael Albada | Applied agent systems |
+| [AI Agents with MCP](https://lnkd.in/dR22bEiZ) | Kyle Stratis | Model Context Protocol in practice |
 
-## 🛠️ MLOps & Production
-
-### Core Concepts
-- **[CI/CD (Continuous Integration & Deployment)](https://lnkd.in/dNdq9FSn)** - Automated testing and deployment pipelines
-- **[Model Versioning & Registry](https://lnkd.in/d-QU637Z)** - Managing model versions and artifacts
-- **[Experiment Tracking (MLflow / W&B)](https://lnkd.in/deFrPyHU)** - Track experiments and hyperparameters
-- **[Data Version Control (DVC)](https://lnkd.in/d5VQazN9)** - Version control for datasets
-- **[Monitoring & Drift Detection](https://lnkd.in/dYwu-q2m)** - Track model performance in production
-
-### Building Blocks
-- **[Data Pipeline (ETL / ELT)](https://lnkd.in/dhnTfFHP)** - Extract, transform, load data workflows
-- **[Feature Store (Feast / Tecton)](https://lnkd.in/dHJJ36a4)** - Centralized feature management
-- **[Model Packaging (Docker / ONNX)](https://lnkd.in/dxGvWJ4w)** - Package models for deployment
-- **[Deployment (Batch / Real-Time / Edge)](https://lnkd.in/du7ej8p2)** - Deploy models to different environments
-- **[Orchestration (Airflow / Prefect / Kubeflow)](https://lnkd.in/dDCrHszG)** - Workflow orchestration tools
-- **[Observability (Prometheus / Grafana)](https://lnkd.in/dYw_QQtA)** - Monitor and visualize system health
-
-### System Design Patterns
-- **[Batch vs Online Inference](https://lnkd.in/dkE4RZ23)** - Choose the right inference pattern
-- **[Shadow / Canary / Blue-Green Deployments](https://lnkd.in/dZedEeWm)** - Safe deployment strategies
-- **[Retraining & Continuous Learning](https://lnkd.in/dEKNbTT7)** - Keep models up-to-date
-- **[Feedback Loops & Drift Correction](https://lnkd.in/drRXMTAd)** - Handle model degradation
-
-[Back to Top ⬆️](#-table-of-contents)
+**Reading order:** *Build a Large Language Model (From Scratch)* → *AI Engineering* → the agent books.
 
 ---
 
-## 🤖 AI Agents & LLMs
+## Courses
 
-This section contains specialized resources for building AI agents and working with Large Language Models.
+### Foundations
 
-### 📹 Video Resources
+| Course | Provider | Time | Covers |
+|---|---|---|---|
+| [Google's Python Class](https://developers.google.com/edu/python) | Google | ~2 weeks | Python syntax, strings, lists, files |
+| [Kaggle Learn](https://www.kaggle.com/learn) | Kaggle | 3–4 hrs each | Bite-sized, interactive, free certificates |
+| [Kaggle: Pandas](https://www.kaggle.com/learn/pandas) | Kaggle | 4 hrs | Data manipulation — the daily-driver skill |
+| [Kaggle: Data Cleaning](https://www.kaggle.com/learn/data-cleaning) | Kaggle | 4 hrs | Missing values, scaling, dates, encodings |
+| [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course) | Google | ~15 hrs | ML fundamentals with TensorFlow |
 
-#### Foundational Videos
-- **[LLM Introduction](https://www.youtube.com/watch?v=zjkBMFhNj_g)** - Introduction to Large Language Models
-- **[LLMs from Scratch](https://www.youtube.com/watch?v=9vM4p9NN0Ts)** - Building LLMs from the ground up
+### Core machine learning
 
-#### Agent Development
-- **[Agentic AI Overview (Stanford)](https://www.youtube.com/watch?v=kJLiOGle3Lw)** - Comprehensive overview of agentic AI
-- **[Building and Evaluating Agents](https://www.youtube.com/watch?v=d5EltXhbcfA)** - Agent construction and evaluation
-- **[Building Effective Agents](https://www.youtube.com/watch?v=D7_ipDqhtwk)** - Best practices for agent development
-- **[Building Agents with MCP](https://www.youtube.com/watch?v=kQmXtrmQ5Zg)** - Model Context Protocol for agents
-- **[Building an Agent from Scratch](https://www.youtube.com/watch?v=xzXdLRUyjUg)** - Hands-on agent implementation
-- **[Philo Agents Playlist](https://www.youtube.com/playlist?list=PLacQJwuclt_sV-tfZmpT1Ov6jldHl30NR)** - Complete agent development series
+- **[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)** — Andrew Ng / DeepLearning.AI
+  The course that taught a generation. Still the best first ML course. *Roadmap stage 5.*
+- **[Machine Learning Theory (CS229)](https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)** — Stanford Online
+  The rigorous version, with full derivations.
 
-### 🗂️ GitHub Repositories
+### Deep learning
 
-- **[GenAI Agents](https://github.com/nirdiamant/GenAI_Agents)** - Generative AI agents collection
-- **[Microsoft's AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)** - Comprehensive beginner course
-- **[Prompt Engineering Guide](https://lnkd.in/gJjGbxQr)** - Master prompt engineering
-- **[Hands-On Large Language Models](https://lnkd.in/dxaVF86w)** - Practical LLM guide
-- **[AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)** - Getting started with agents
-- **[GenAI Agents Collection](https://lnkd.in/dEt72MEy)** - Curated agent resources
-- **[Made with ML](https://lnkd.in/d2dMACMj)** - Production ML practices
-- **[Hands-On AI Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering)** - AI engineering guide
-- **[Awesome Generative AI Guide](https://lnkd.in/dJ8gxp3a)** - Comprehensive GenAI resources
-- **[Designing Machine Learning Systems](https://lnkd.in/dEx8sQJK)** - System design for ML
-- **[Machine Learning for Beginners from Microsoft](https://lnkd.in/dBj3BAEY)** - Microsoft's curriculum
-- **[LLM Course](https://github.com/mlabonne/llm-course)** - Complete LLM roadmap
+| Course | Provider | Approach |
+|---|---|---|
+| [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) | Andrew Ng / DeepLearning.AI | Bottom-up: intuition first, then models |
+| [Practical Deep Learning for Coders](https://course.fast.ai/) | [fast.ai](https://www.fast.ai/) | Top-down: train a working model in lesson one |
+| [Introduction to Deep Learning (6.S191)](https://youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | MIT | Fast, current, lecture-style |
+| [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) | Andrej Karpathy | Build backprop, then a GPT, from scratch |
+| [Language Modeling From Scratch](https://lnkd.in/g84KRW96) | — | The mechanics of training a language model |
 
-### 🗺️ Guides & Documentation
+> **Pick one and finish it.** fast.ai for fast results; Andrew Ng for theory first;
+> Karpathy if you learn by watching someone type.
 
-- **[Google's Agent Whitepaper](https://lnkd.in/gFvCfbSN)** - Google's comprehensive agent guide
-- **[Google's Agent Companion](https://lnkd.in/gfmCrgAH)** - Supplementary agent materials
-- **[Building Effective Agents by Anthropic](https://lnkd.in/gRWKANS4)** - Anthropic's best practices
-- **[Claude Code Best Agentic Coding Practices](https://lnkd.in/gs99zyCf)** - Agentic coding patterns
-- **[OpenAI's Practical Guide to Building Agents](https://lnkd.in/guRfXsFK)** - OpenAI's agent framework
+### Data science and interview prep
 
-### 📚 Books
+- [400+ Data Science Resources](https://lnkd.in/gv9yvfdd) — a large curated collection
+- [Python Data Science Library](https://lnkd.in/gHSDtsmA) — comprehensive Python DS guide
+- [Premium Data Science Interview Resources](https://lnkd.in/gPrWQ8is) — interview preparation
 
-- **[Understanding Deep Learning](https://udlbook.github.io/udlbook/)** - Deep learning fundamentals
-- **[Building an LLM from Scratch](https://lnkd.in/g2YGbnWS)** - Construct your own LLM
-- **[The LLM Engineering Handbook](https://lnkd.in/gWUT2EXe)** - LLM engineering practices
-- **[AI Agents: The Definitive Guide by Nicole Koenigstein](https://lnkd.in/dJ9wFNMD)** - Comprehensive agent guide
-- **[Building Applications with AI Agents by Michael Albada](https://lnkd.in/dSs8srk5)** - Practical agent applications
-- **[AI Agents with MCP by Kyle Stratis](https://lnkd.in/dR22bEiZ)** - MCP for agents
-- **[AI Engineering (O'Reilly)](https://www.oreilly.com/library/view/ai-engineering/9781098166298/)** - Production AI systems
-
-### 📜 Research Papers
-
-- **[ReAct](https://lnkd.in/gRBH3ZRq)** - Reasoning and acting in language models
-- **[Generative Agents](https://lnkd.in/gsDCUsWm)** - Interactive believable agents
-- **[Toolformer](https://lnkd.in/gyzrege6)** - Teaching LLMs to use tools
-- **[Chain-of-Thought Prompting](https://lnkd.in/gaK5CXzD)** - Reasoning through prompts
-- **[Tree of Thoughts](https://lnkd.in/gRJdv_iU)** - Deliberate problem solving
-- **[Reflexion](https://lnkd.in/gGFMgjUj)** - Self-reflective agents
-- **[Retrieval-Augmented Generation Survey](https://lnkd.in/gGUqkkyR)** - RAG comprehensive overview
-
-### 🧑‍🏫 Online Courses
-
-- **[HuggingFace's Agent Course](https://lnkd.in/gmTftTXV)** - Build agents with HuggingFace
-- **[MCP with Anthropic](https://lnkd.in/geffcwdq)** - Model Context Protocol course
-- **[Building Vector Databases with Pinecone](https://lnkd.in/gCS4sd7Y)** - Vector DB foundations
-- **[Vector Databases from Embeddings to Apps](https://lnkd.in/gm9HR6_2)** - Comprehensive vector DB
-- **[Agent Memory](https://lnkd.in/gNFpC542)** - Memory systems for agents
-- **[Building and Evaluating RAG apps](https://lnkd.in/g2qC9-mh)** - RAG application development
-- **[Building Browser Agents](https://lnkd.in/gsMmCifQ)** - Web automation agents
-- **[LLMOps](https://lnkd.in/g7bHU37w)** - LLM operations
-- **[Evaluating AI Agents](https://lnkd.in/gHJtwF5s)** - Agent evaluation methods
-- **[Computer Use with Anthropic](https://lnkd.in/gMUWg7Fa)** - Computer control agents
-- **[Multi-Agent Use](https://lnkd.in/gU9DY9kj)** - Multi-agent coordination
-- **[Improving LLM Accuracy](https://lnkd.in/gsE-4FvY)** - LLM optimization
-- **[Agent Design Patterns](https://lnkd.in/gzKvx5A4)** - Agent architecture patterns
-- **[Multi Agent Systems](https://lnkd.in/gUayts9s)** - Multi-agent systems
-
-[Back to Top ⬆️](#-table-of-contents)
+Agent and LLM courses are grouped under [AI agents & LLMs](#ai-agents--llms).
 
 ---
 
-## 📰 Newsletters & Communities
+## Video tutorials
+
+Single videos for when you need exactly one topic.
+
+### Python and tooling
+
+| Video | Length | Covers |
+|---|---|---|
+| [Python for Everybody](https://www.youtube.com/watch?v=rfscVS0vtbw) | 4 hrs | Complete Python from zero |
+| [Object-Oriented Programming in Python](https://www.youtube.com/watch?v=iLRZi0Gu8Go) | 1 hr | Classes, inheritance, methods |
+| [Data Structures & Algorithms](https://www.youtube.com/watch?v=pkYVOmU3MgA) | 5 hrs | The interview fundamentals |
+
+### Data handling
+
+| Video | Length | Covers |
+|---|---|---|
+| [Pandas Tutorial](https://www.youtube.com/watch?v=2uvysYbKdjM) | 1 hr | Keith Galli's practical walkthrough |
+| [NumPy Tutorial](https://www.youtube.com/watch?v=QUT1VHiLmmI) | 1 hr | Arrays, broadcasting, vectorisation |
+| [Matplotlib Tutorial](https://www.youtube.com/watch?v=3Xc3CA655Y4) | 1 hr | Plotting and visualisation |
+| [Data Loading Techniques](https://www.youtube.com/watch?v=T23Bs75F7ZQ) | — | Reading data efficiently at scale |
+
+### Machine learning and deep learning
+
+Full lecture series are listed under [Courses](#courses) — Stanford's CS229 and MIT's 6.S191 are
+both there, and both are free on YouTube.
+
+---
+
+## YouTube channels
+
+Thirty channels, grouped by what you'd use them for. If you subscribe to only two, make them
+**3Blue1Brown** and **StatQuest**.
+
+### Start here — intuition before formalism
+
+| Channel | Why |
+|---|---|
+| [3Blue1Brown](https://www.youtube.com/@3blue1brown) | The maths behind AI, made visual. Watch the neural network and linear algebra series |
+| [StatQuest](https://www.youtube.com/@statquest) | Josh Starmer explains statistics and ML algorithms clearly, and makes it fun |
+| [Serrano Academy](https://www.youtube.com/@SerranoAcademy) | Luis Serrano's step-by-step breakdowns — excellent when a concept won't click |
+| [CodeEmporium](https://www.youtube.com/@CodeEmporium) | Algorithm explanations with clean visualisations |
+
+### Go deeper — academic rigour
+
+| Channel | Why |
+|---|---|
+| [Stanford Online](https://www.youtube.com/@stanfordonline) | Full CS229, CS231n and CS224n lectures, free |
+| [MIT OpenCourseWare](https://www.youtube.com/@mitocw) | Rigorous theory across the whole curriculum |
+| [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) | Neural networks built from scratch, live. Rare clarity |
+| [Steve Brunton](https://www.youtube.com/@Eigensteve) | Scientific ML, control theory, dynamical systems |
+
+### Learn to build — code on screen
+
+| Channel | Why |
+|---|---|
+| [Umar Jamil](https://www.youtube.com/@umarjamilai) | Transformers and LLMs implemented line by line |
+| [Jeremy Howard](https://www.youtube.com/@howardjeremyp) | Practical deep learning, the fast.ai philosophy |
+| [DeepLearning.AI](https://www.youtube.com/@Deeplearningai) | Structured paths from Andrew Ng's team |
+| [Hugging Face](https://www.youtube.com/@HuggingFace) | Modern open-source tooling, from the people building it |
+| [sentdex](https://www.youtube.com/@sentdex) | Python ML projects, start to finish |
+| [Data School](https://www.youtube.com/@dataschool) | scikit-learn and pandas for beginners, done properly |
+| [Codebasics](https://www.youtube.com/@codebasics) | Real-world use cases and career-focused projects |
+| [freeCodeCamp](https://www.youtube.com/@freecodecamp) | Multi-hour complete courses, free |
+
+### Stay current — research as it lands
+
+| Channel | Why |
+|---|---|
+| [Yannic Kilcher](https://www.youtube.com/@YannicKilcher) | Paper deep dives with genuine technical criticism |
+| [Two Minute Papers](https://www.youtube.com/@TwoMinutePapers) | Research summaries, fast |
+| [Arxiv Insights](https://www.youtube.com/@ArxivInsights) | Beginner-friendly explanations of hard papers |
+| [Machine Learning Street Talk](https://www.youtube.com/@MachineLearningStreetTalk) | Long technical debates between researchers |
+| [AI Explained](https://www.youtube.com/@aiexplained-official) | Careful analysis of new models and capabilities |
+| [AI Coffee Break with Letitia](https://www.youtube.com/@AICoffeeBreak) | Accessible research explainers |
+| [Hamel Husain](https://lnkd.in/eSgQMg_d) | LLM evaluation, RAG and fine-tuning, from practice |
+
+### Apply it — production and industry
+
+| Channel | Why |
+|---|---|
+| [Kaggle](https://www.youtube.com/@kaggle) | Competition walkthroughs and real workflows |
+| [Google Cloud Tech](https://www.youtube.com/@googlecloudtech) | Deploying and managing models at scale |
+| [Matt Wolfe](https://www.youtube.com/@mreflow) | What shipped this week in AI tooling |
+| [The AI Advantage](https://www.youtube.com/@aiadvantage) | Applying AI to actual business work |
+| [Siraj Raval](https://www.youtube.com/@SirajRaval) | Creative, project-driven AI |
+
+### Learn from the people building it
+
+| Channel | Why |
+|---|---|
+| [Lex Fridman](https://www.youtube.com/@lexfridman) | Long-form interviews with leading researchers |
+| [Tina Huang](https://www.youtube.com/@TinaHuang1) | Learning strategy and career navigation |
+
+---
+
+## Research papers
+
+All links go to free arXiv or publisher pages. Read the abstract and figures first — full papers
+are for the second pass.
+
+### The foundations
+
+| Paper | Year | Why it matters |
+|---|---|---|
+| [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | 2017 | The transformer. Start here — everything modern descends from it |
+| [Deep Residual Learning (ResNet)](https://arxiv.org/abs/1512.03385) | 2015 | Skip connections made very deep networks trainable |
+| [Batch Normalization](https://arxiv.org/abs/1502.03167) | 2015 | Why training got dramatically faster and more stable |
+| [Dropout](https://jmlr.org/papers/v15/srivastava14a.html) | 2014 | The regularisation idea you'll use in every model |
+| [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980) | 2014 | The default optimiser, and why |
+| [Efficient Estimation of Word Representations (word2vec)](https://arxiv.org/abs/1301.3781) | 2013 | Where embeddings began |
+
+### Language models
+
+| Paper | Year | Why it matters |
+|---|---|---|
+| [BERT](https://arxiv.org/abs/1810.04805) | 2018 | Bidirectional pre-training; the encoder-only branch |
+| [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165) | 2020 | Scale as a capability unlock; in-context learning |
+| [Training LMs to Follow Instructions (InstructGPT)](https://arxiv.org/abs/2203.02155) | 2022 | RLHF — how raw models became assistants |
+| [LoRA: Low-Rank Adaptation](https://arxiv.org/abs/2106.09685) | 2021 | Fine-tuning large models on a single GPU |
+
+### Vision and generative models
+
+| Paper | Year | Why it matters |
+|---|---|---|
+| [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) | 2014 | The generator-vs-discriminator idea |
+| [An Image is Worth 16x16 Words (ViT)](https://arxiv.org/abs/2010.11929) | 2020 | Transformers took over vision too |
+| [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) | 2020 | The basis of Stable Diffusion and friends |
+
+### Reinforcement learning
+
+| Paper | Year | Why it matters |
+|---|---|---|
+| [Playing Atari with Deep RL (DQN)](https://arxiv.org/abs/1312.5602) | 2013 | Deep networks as value functions |
+| [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347) | 2017 | The workhorse policy-gradient method, and the engine behind RLHF |
+
+### Agents and reasoning
+
+| Paper | Why it matters |
+|---|---|
+| [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903) | Reasoning through intermediate steps |
+| [ReAct: Synergizing Reasoning and Acting](https://arxiv.org/abs/2210.03629) | The think-act-observe loop nearly every agent uses |
+| [Toolformer](https://arxiv.org/abs/2302.04761) | Models teaching themselves to call tools |
+| [Reflexion](https://arxiv.org/abs/2303.11366) | Agents that critique and retry their own work |
+| [Tree of Thoughts](https://arxiv.org/abs/2305.10601) | Searching over reasoning paths instead of one chain |
+| [Generative Agents](https://arxiv.org/abs/2304.03442) | Believable simulated behaviour from LLMs |
+
+RAG papers are grouped under [RAG](#rag--retrieval-augmented-generation).
+
+### Finding new papers
+
+- **[Papers with Code](https://paperswithcode.com/)** — papers paired with working implementations
+- **[Connected Papers](https://www.connectedpapers.com/)** — visual maps of a research area
+- **[ArXiv Sanity Preserver](http://www.arxiv-sanity.com/)** — better arXiv browsing and filtering
+
+---
+
+## GitHub repositories
+
+Repos worth reading end to end, not just starring.
+
+### Learning curricula
+
+| Repo | What it is |
+|---|---|
+| [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners) | Microsoft's 12-week, 26-lesson ML curriculum |
+| [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | Microsoft's agent course, lesson by lesson |
+| [LLM Course](https://github.com/mlabonne/llm-course) | Maxime Labonne's complete LLM roadmap with notebooks |
+| [Hands-On AI Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) | Practical AI engineering walkthroughs |
+
+### Curated collections
+
+| Repo | What it is |
+|---|---|
+| [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) | Papers, courses and interview prep for GenAI |
+| [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents) | Working agent implementations, many patterns |
+| [GenAI Agents Collection](https://lnkd.in/dEt72MEy) | Further curated agent resources |
+| [Designing Machine Learning Systems](https://lnkd.in/dEx8sQJK) | ML system design patterns |
+
+### Production and practice
+
+| Repo | What it is |
+|---|---|
+| [Made with ML](https://madewithml.com/) | Production ML from design through deployment |
+| [Prompt Engineering Guide](https://www.promptingguide.ai/) | The reference for prompting techniques |
+| [Kaggle Competitions](https://www.kaggle.com/competitions) | Real problems with real leaderboards. *Roadmap stage 7* |
+
+---
+
+## Guides & whitepapers
+
+- **[Google's Agent Whitepaper](https://lnkd.in/gFvCfbSN)** — comprehensive agent design guide
+- **[Google's Agent Companion](https://lnkd.in/gfmCrgAH)** — supplementary agent material
+- **[Building Effective Agents by Anthropic](https://lnkd.in/gRWKANS4)** — patterns that hold up in production
+- **[Claude Code Best Agentic Coding Practices](https://lnkd.in/gs99zyCf)** — agentic coding patterns
+- **[OpenAI's Practical Guide to Building Agents](https://lnkd.in/guRfXsFK)** — OpenAI's agent framework
+
+---
+
+## AI agents & LLMs
+
+Everything agent-related, ordered as a path rather than a pile. Prerequisites: comfortable
+Python, and a working understanding of neural networks.
+
+### 1. Understand the machine first
+
+Don't build agents on top of a black box. Build the box.
+
+- [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) — backprop, then a GPT
+- [Introduction to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) — what an LLM is and how it's trained
+- [LLMs from Scratch](https://www.youtube.com/watch?v=9vM4p9NN0Ts) — a language model end to end
+- [`code/transformers/`](code/transformers/) — **in this repo**: a working minimal GPT
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) — the paper behind all of it
+
+### 2. Learn the agent loop
+
+- [Agentic AI Overview (Stanford)](https://www.youtube.com/watch?v=kJLiOGle3Lw) — the landscape
+- [Building an Agent from Scratch](https://www.youtube.com/watch?v=xzXdLRUyjUg) — the loop, minus the frameworks
+- [Building Effective Agents](https://www.youtube.com/watch?v=D7_ipDqhtwk) — patterns that survive production
+- [HuggingFace Agents Course](https://huggingface.co/learn/agents-course) — the best structured on-ramp
+- [Philo Agents playlist](https://www.youtube.com/playlist?list=PLacQJwuclt_sV-tfZmpT1Ov6jldHl30NR) — a full development series
+- [Learn the basics first](https://lnkd.in/gTQyc_fi) — if any of the above lost you
+
+### 3. Give agents memory and tools
+
+- [Agent Memory](https://lnkd.in/gNFpC542) — short- and long-term memory design
+- [Building Vector Databases with Pinecone](https://lnkd.in/gCS4sd7Y) — vector storage fundamentals
+- [Vector Databases: from Embeddings to Applications](https://lnkd.in/gm9HR6_2) — the fuller treatment
+- [MCP with Anthropic](https://lnkd.in/geffcwdq) — the Model Context Protocol
+- [Building Agents with MCP](https://www.youtube.com/watch?v=kQmXtrmQ5Zg) — MCP in practice
+- [Computer Use with Anthropic](https://lnkd.in/gMUWg7Fa) — agents that drive a desktop
+- [Building Browser Agents](https://lnkd.in/gsMmCifQ) — web automation
+
+Retrieval gets its own section: [RAG](#rag--retrieval-augmented-generation).
+
+### 4. Design for more than one agent
+
+- [Agent Design Patterns](https://lnkd.in/gzKvx5A4) — the recurring architectures
+- [Multi-Agent Use](https://lnkd.in/gU9DY9kj) — coordinating several agents
+- [Multi-Agent Systems](https://lnkd.in/gUayts9s) — collaboration and delegation
+
+### 5. Evaluate and operate
+
+The step most people skip, and the reason most agents fail.
+
+- [Building and Evaluating Agents](https://www.youtube.com/watch?v=d5EltXhbcfA) — construction plus measurement
+- [Evaluating AI Agents](https://lnkd.in/gHJtwF5s) — how to know if your agent actually works
+- [Improving LLM Accuracy](https://lnkd.in/gsE-4FvY) — prompting, tuning, grounding
+- [LLMOps](https://lnkd.in/g7bHU37w) — running LLM systems in production
+
+### 6. Go academic
+
+- [Berkeley LLM Agents MOOC](https://lnkd.in/gqyKWE3A) — the foundational semester
+- [Berkeley Advanced LLM Agents MOOC](https://lnkd.in/gydt98kW) — the follow-up
+
+**Also relevant:** [agent books](#llms-and-ai-agents) ·
+[agent papers](#agents-and-reasoning) ·
+[agent repos](#curated-collections) ·
+[guides & whitepapers](#guides--whitepapers)
+
+---
+
+## RAG — Retrieval-Augmented Generation
+
+Giving a model access to knowledge it wasn't trained on. Work through in order.
+
+### 1. Videos
+
+- [What is RAG](https://lnkd.in/gYVF6CfT) — the concept in plain terms
+- [How to use RAG](https://lnkd.in/g-953k9V) — the practical version
+- [RAG from Scratch](https://lnkd.in/gibgTsz5) — build it yourself, no framework
+- [CMU Advanced NLP: RAG](https://lnkd.in/gFXF6DZV) — the academic treatment
+- [Stanford Transformers V3: RAG](https://lnkd.in/gnvPbU7X) — retrieval in the transformer context
+
+### 2. Papers
+
+| Paper | Why it matters |
+|---|---|
+| [Retrieval-Augmented Generation (Lewis et al.)](https://arxiv.org/abs/2005.11401) | The original RAG paper |
+| [RAG for LLMs: A Survey](https://arxiv.org/abs/2312.10997) | The map of the whole landscape |
+| [Self-RAG](https://arxiv.org/abs/2310.11511) | Models that decide when to retrieve |
+| [Corrective RAG](https://arxiv.org/abs/2401.15884) | Recovering when retrieval returns junk |
+
+### 3. Repositories
+
+- [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques) — implementations of every major variant
+- [Awesome RAG](https://lnkd.in/g4ppP4-H) — curated collection
+- [Awesome RAG (alternate)](https://lnkd.in/g3meT_ns) — a second, differently-scoped list
+
+### 4. Courses
+
+- [DeepLearning.AI: RAG](https://lnkd.in/gKCUaN7G) · [alternate link](https://lnkd.in/gy7HjASS)
+- [Building and Evaluating RAG Apps](https://lnkd.in/g2qC9-mh)
+- [RAG with LangChain](https://lnkd.in/gEhQJ3RC)
+
+### 5. Keep up
+
+- [Need the basics first?](https://lnkd.in/giV_N6KU) — start here and come back
+- For weekly coverage of AI engineering and research, see
+  [Newsletters](#newsletters--communities) — *Gradient Ascent* is the closest fit
+
+---
+
+## MLOps & production
+
+Getting a model out of a notebook and keeping it working.
+
+### Core practices
+
+| Topic | Resource |
+|---|---|
+| CI/CD | [Continuous Integration & Deployment](https://lnkd.in/dNdq9FSn) — automated testing and release |
+| Model versioning | [Model Versioning & Registry](https://lnkd.in/d-QU637Z) — managing versions and artefacts |
+| Experiment tracking | [MLflow / Weights & Biases](https://lnkd.in/deFrPyHU) — track runs and hyperparameters |
+| Data versioning | [DVC](https://lnkd.in/d5VQazN9) — version control for datasets |
+| Monitoring | [Monitoring & Drift Detection](https://lnkd.in/dYwu-q2m) — catch degradation early |
+
+### Building blocks
+
+| Topic | Resource |
+|---|---|
+| Data pipelines | [ETL / ELT](https://lnkd.in/dhnTfFHP) |
+| Feature stores | [Feast / Tecton](https://lnkd.in/dHJJ36a4) |
+| Packaging | [Docker / ONNX](https://lnkd.in/dxGvWJ4w) |
+| Deployment | [Batch / real-time / edge](https://lnkd.in/du7ej8p2) |
+| Orchestration | [Airflow / Prefect / Kubeflow](https://lnkd.in/dDCrHszG) |
+| Observability | [Prometheus / Grafana](https://lnkd.in/dYw_QQtA) |
+
+### System design patterns
+
+- [Batch vs online inference](https://lnkd.in/dkE4RZ23) — choosing the right pattern
+- [Shadow / canary / blue-green deployments](https://lnkd.in/dZedEeWm) — shipping without breaking things
+- [Retraining & continuous learning](https://lnkd.in/dEKNbTT7) — keeping models current
+- [Feedback loops & drift correction](https://lnkd.in/drRXMTAd) — handling degradation
+
+---
+
+## CUDA & GPU programming
+
+For when the bottleneck is the hardware and you want to write the kernel yourself.
+
+**The book**
+
+- **[Programming Massively Parallel Processors](https://lnkd.in/gCxbusAH)** — Kirk & Hwu.
+  The standard text. Start and mostly finish here.
+
+**Videos**
+
+- [CUDA Crash Course](https://lnkd.in/g4u_nE9h) — NotesByNick. Real kernels, real performance
+- [NVIDIA GTC on-demand](https://lnkd.in/gvaGYySz) — filter to *intermediate* to skip the sales talks
+
+**Practice**
+
+- [LeetGPU](https://leetgpu.com/) — kernel challenges in the browser, no GPU needed
+- [GPU programming exercises](https://lnkd.in/gGRgvm7G) — where a lot of engineers start
+- [Progressive CUDA exercises](https://lnkd.in/ge2TtC-i) — graduated difficulty, not toy problems
+
+---
+
+## Computer vision, NLP & reinforcement learning
+
+### Computer vision
+
+- **[OpenCV](https://opencv.org/)** — the classical CV library, still essential
+- **[PyImageSearch](https://www.pyimagesearch.com/)** — practical tutorials with working code
+- Papers: [ResNet](https://arxiv.org/abs/1512.03385) · [Vision Transformer](https://arxiv.org/abs/2010.11929)
+
+### Natural language processing
+
+- **[spaCy](https://spacy.io/)** — industrial-strength NLP pipelines
+- **[NLTK](https://www.nltk.org/)** — the classic teaching toolkit
+- **[Hugging Face Transformers](https://huggingface.co/docs/transformers)** — the modern default for anything pretrained
+- Book: [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) (free)
+
+### Reinforcement learning
+
+- **[Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html)** — Sutton & Barto, free. The textbook
+- **[Spinning Up in Deep RL](https://spinningup.openai.com/)** — OpenAI's practical companion to the theory
+- **[Gymnasium](https://gymnasium.farama.org/)** — the maintained successor to OpenAI Gym
+- **[Stable-Baselines3](https://stable-baselines3.readthedocs.io/)** — reliable implementations of standard algorithms
+- Papers: [DQN](https://arxiv.org/abs/1312.5602) · [PPO](https://arxiv.org/abs/1707.06347)
+- In this repo: [`reference/reinforcement-learning-notes.pdf`](reference/reinforcement-learning-notes.pdf)
+
+---
+
+## Tools & libraries
+
+### Environments
+
+| Tool | Use it for |
+|---|---|
+| [Google Colab](https://colab.research.google.com/) | Free notebooks with GPU access — no install needed |
+| [Jupyter](https://jupyter.org/) | The local notebook standard |
+| [VS Code](https://code.visualstudio.com/) | Editing, debugging, notebooks in one place |
+
+### Frameworks
+
+| Tool | Use it for |
+|---|---|
+| [PyTorch](https://pytorch.org/) | Research and most new work. The default in this repo |
+| [TensorFlow](https://www.tensorflow.org/) | Production pipelines and mobile/edge deployment |
+| [Keras](https://keras.io/) | High-level model building on top of either |
+| [scikit-learn](https://scikit-learn.org/) | Everything that isn't a neural network |
+
+### Data
+
+| Tool | Use it for |
+|---|---|
+| [pandas](https://pandas.pydata.org/) | Tabular data manipulation |
+| [NumPy](https://numpy.org/) | Numerical computing, the layer under everything |
+| [Matplotlib](https://matplotlib.org/) | Plotting |
+| [Seaborn](https://seaborn.pydata.org/) | Statistical plots with sane defaults |
+
+### Experiment tracking & deployment
+
+| Tool | Use it for |
+|---|---|
+| [Weights & Biases](https://wandb.ai/) | Experiment tracking and comparison |
+| [MLflow](https://mlflow.org/) | Open-source lifecycle management |
+| [DVC](https://dvc.org/) | Version control for data and models |
+| [Hugging Face Hub](https://huggingface.co/) | Sharing and hosting models |
+| [Docker](https://www.docker.com/) | Reproducible environments |
+| [Replicate](https://replicate.com/) | Deploying a model without managing infrastructure |
+
+### Cloud platforms
+
+- [Google Cloud AI](https://cloud.google.com/products/ai) · [AWS Machine Learning](https://aws.amazon.com/machine-learning/) · [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
+
+---
+
+## Datasets
+
+| Source | Best for |
+|---|---|
+| [Kaggle Datasets](https://www.kaggle.com/datasets) | Breadth, plus notebooks showing what others did with them |
+| [Hugging Face Datasets](https://huggingface.co/datasets) | NLP, vision and multimodal, loadable in one line |
+| [UCI ML Repository](https://archive.ics.uci.edu/) | The classic small benchmarks |
+| [OpenML](https://www.openml.org/) | Datasets with published results to compare against |
+| [Google Dataset Search](https://datasetsearch.research.google.com/) | Finding data that isn't on the usual platforms |
+| [Papers with Code Datasets](https://paperswithcode.com/datasets) | Whatever a specific paper benchmarked on |
+
+In this repo: [`data/iris.csv`](data/iris.csv) — see [`data/README.md`](data/README.md).
+
+---
+
+## Practice platforms
+
+| Platform | What you get |
+|---|---|
+| [Kaggle](https://www.kaggle.com/) | Competitions, datasets, notebooks, free GPUs |
+| [DrivenData](https://www.drivendata.org/) | Data science competitions for social-good problems |
+| [HackerRank AI Track](https://www.hackerrank.com/domains/ai) | ML-specific coding challenges |
+| [LeetCode](https://leetcode.com/) | The algorithm practice interviews still test |
+
+---
+
+## Newsletters & communities
 
 ### Newsletters
-- **[Gradient Ascent](https://lnkd.in/gZbZAeQW)** - Weekly AI/ML news and insights
-- **[DecodingML by Paul](https://lnkd.in/gpZPgk7J)** - Deep technical ML content
-- **[Deep (Learning) Focus by Cameron](https://lnkd.in/gTUNcUVE)** - Deep learning research and trends
-- **[NeoSage by Shivani](https://blog.neosage.io/)** - AI insights and analysis
-- **[Jam with AI by Shirin and Shantanu](https://lnkd.in/gQXJzuV8)** - Practical AI applications
-- **[Data Hustle by Sai](https://lnkd.in/gZpdTTYD)** - Data science career and learning
 
-### Communities & Forums
-- **[r/MachineLearning](https://www.reddit.com/r/MachineLearning/)** - Active ML community on Reddit
-- **[AI Stack Exchange](https://ai.stackexchange.com/)** - Q&A for AI practitioners
-- **[Hugging Face Forums](https://discuss.huggingface.co/)** - NLP and transformers community
-- **[Kaggle Community](https://www.kaggle.com/discussion)** - Data science competitions and discussions
+| Newsletter | Focus |
+|---|---|
+| [Gradient Ascent](https://lnkd.in/gZbZAeQW) | Weekly AI/ML news and analysis |
+| [DecodingML](https://lnkd.in/gpZPgk7J) | Deep technical ML content, by Paul |
+| [Deep (Learning) Focus](https://lnkd.in/gTUNcUVE) | Research trends, by Cameron |
+| [NeoSage](https://blog.neosage.io/) | AI insights and analysis, by Shivani |
+| [Jam with AI](https://lnkd.in/gQXJzuV8) | Practical applications, by Shirin and Shantanu |
+| [Data Hustle](https://lnkd.in/gZpdTTYD) | Data science careers and learning, by Sai |
 
-[Back to Top ⬆️](#-table-of-contents)
+### Communities
 
----
-
-## 🧰 Tools & Libraries
-
-### Development Environments
-- **[Google Colab](https://colab.research.google.com/)** - Free cloud-based Jupyter notebooks with GPU access
-- **[Jupyter Notebook](https://jupyter.org/)** - Interactive computing environment
-- **[VS Code](https://code.visualstudio.com/)** - Popular code editor with AI extensions
-
-### ML/DL Frameworks
-- **[TensorFlow](https://www.tensorflow.org/)** - End-to-end ML platform from Google
-- **[PyTorch](https://pytorch.org/)** - Research-focused deep learning framework
-- **[Scikit-learn](https://scikit-learn.org/)** - Traditional ML algorithms
-- **[Keras](https://keras.io/)** - High-level neural networks API
-
-### Data Processing
-- **[Pandas](https://pandas.pydata.org/)** - Data manipulation and analysis
-- **[NumPy](https://numpy.org/)** - Numerical computing
-- **[Matplotlib](https://matplotlib.org/)** - Data visualization
-- **[Seaborn](https://seaborn.pydata.org/)** - Statistical data visualization
-
-### MLOps & Experiment Tracking
-- **[Weights & Biases](https://wandb.ai/)** - Experiment tracking and visualization
-- **[MLflow](https://mlflow.org/)** - Open-source ML lifecycle platform
-- **[DVC (Data Version Control)](https://dvc.org/)** - Version control for data and models
-
-### Model Deployment
-- **[Hugging Face Hub](https://huggingface.co/)** - Model sharing and deployment platform
-- **[Replicate](https://replicate.com/)** - Deploy ML models with one line of code
-- **[Docker](https://www.docker.com/)** - Containerization for reproducible environments
-
-### Datasets & Data Sources
-- **[Kaggle Datasets](https://www.kaggle.com/datasets)** - Diverse dataset collection
-- **[UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)** - Classic ML datasets
-- **[Hugging Face Datasets](https://huggingface.co/datasets)** - NLP and multimodal datasets
-
-[Back to Top ⬆️](#-table-of-contents)
+| Community | Best for |
+|---|---|
+| [r/MachineLearning](https://www.reddit.com/r/MachineLearning/) | Research discussion and paper threads |
+| [Hugging Face Forums](https://discuss.huggingface.co/) | Transformers, datasets, practical troubleshooting |
+| [Kaggle Discussions](https://www.kaggle.com/discussions) | Competition tactics and what actually works |
+| [AI Stack Exchange](https://ai.stackexchange.com/) | Specific technical questions with citable answers |
 
 ---
 
-## 💡 Additional Resources
+## Contributing
 
-### Practice Platforms
-- **[Kaggle](https://www.kaggle.com/)** - Data science competitions and learning platform
-- **[LeetCode](https://leetcode.com/)** - Coding practice for technical interviews
-- **[HackerRank ML Track](https://www.hackerrank.com/domains/ai)** - ML-specific coding challenges
-- **[DrivenData](https://www.drivendata.org/)** - Data science competitions for social good
+Contributions from society members and the wider community are welcome — new notebooks, clearer
+explanations, fixed links, or resources worth adding.
 
-### Interactive Learning
-- **[Kaggle Learn](https://www.kaggle.com/learn)** - Free interactive courses
-- **[Google's Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)** - Quick ML fundamentals
-- **[Fast.ai](https://www.fast.ai/)** - Practical deep learning courses
+Read [CONTRIBUTING.md](CONTRIBUTING.md) for file naming, notebook conventions, and how to submit a
+resource. In short: fork, branch, commit, open a pull request.
 
-### Research Tools
-- **[Papers with Code](https://paperswithcode.com/)** - ML papers with implementations
-- **[ArXiv Sanity Preserver](http://www.arxiv-sanity.com/)** - Better arXiv navigation
-- **[Connected Papers](https://www.connectedpapers.com/)** - Visual paper exploration
-
-### Cloud Platforms
-- **[Google Cloud Platform AI](https://cloud.google.com/products/ai)** - GCP's AI services
-- **[AWS Machine Learning](https://aws.amazon.com/machine-learning/)** - AWS ML services
-- **[Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)** - Microsoft's ML platform
-
-### Specialized Topics & Libraries
-
-#### Computer Vision
-- **[PyImageSearch](https://www.pyimagesearch.com/)** - Computer vision tutorials
-- **[OpenCV](https://opencv.org/)** - Computer vision library
-
-#### Natural Language Processing
-- **[spaCy](https://spacy.io/)** - Industrial-strength NLP
-- **[NLTK](https://www.nltk.org/)** - Natural Language Toolkit
-
-#### Reinforcement Learning
-- **[OpenAI Gym](https://gym.openai.com/)** - RL toolkit
-- **[Stable Baselines3](https://stable-baselines3.readthedocs.io/)** - RL algorithms
-
-[Back to Top ⬆️](#-table-of-contents)
-
----
+Found a broken link? [Open an issue](https://github.com/AkCodes23/MOSS-AI/issues).
 
 ## Contact
 
-For any suggestions or resource contributions, reach out to:  
-**Akhil Varanasi** – Head of AI  
-Email: akhilvaranasi23@gmail.com
+**Akhil Varanasi** — Head of AI, Manipal Open Source Society
+Email: [akhilvaranasi23@gmail.com](mailto:akhilvaranasi23@gmail.com)
+GitHub: [@AkCodes23](https://github.com/AkCodes23)
+
+## License
+
+Released under the [MIT License](LICENSE). External resources linked from this repository remain
+the property of their respective authors.
 
 ---
 
-*Happy Learning & Building!*
+*Happy learning and building.*
